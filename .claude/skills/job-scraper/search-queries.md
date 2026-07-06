@@ -1,76 +1,96 @@
 # Search Queries for Job Scraper
 
-<!-- SETUP: Customize these queries based on your skills, target roles, and location -->
-
 ## Search Sites
 
-Primary (Danish job market):
-- **jobindex.dk** - largest Danish job board
-- **linkedin.com/jobs** - LinkedIn job listings (filter: Denmark / your city)
-- **karriere.dk** - IDA's job board (engineering/science roles)
-- **jobfinder.dk** - another major Danish job board
-- **akademikernes.dk** - academic union job board
+Primary, Canadian and GTA market:
+- **linkedin.com/jobs** - LinkedIn job listings, filter for Greater Toronto Area, Mississauga, Brampton, Toronto, Oakville, hybrid, and remote Canada
+- **indeed.com / indeed.ca** - broad Canadian job board
+- **glassdoor.ca** - job listings plus company review context
+- **workopolis.com** - Canadian job board
+- **eluta.ca** - Canadian employer job index
 
-Secondary (company career pages via Google):
-- Direct Google searches with `site:` filters for known target companies
+Secondary, company career pages via Google:
+- Direct Google searches with `site:` filters for public accounting firms, consulting firms, banks, insurance companies, transportation companies, automotive groups, and enterprise systems teams.
 
 ## Query Categories
 
-Queries are grouped by priority. Each query should be combined with your location terms (e.g. "Copenhagen", "Sjælland", "Hovedstaden") where the site supports it.
+Queries are grouped by priority. Combine each with location terms such as "Mississauga", "Brampton", "Toronto", "Greater Toronto Area", "GTA", "Ontario", "hybrid", or "remote Canada" where supported.
 
-### Priority 1: [YOUR_PRIMARY_ROLE_TYPE]
+### Priority 1: IT Audit and Technology Risk
 
-These match your strongest and most desired career direction.
-
-```
-site:jobindex.dk "[YOUR_PRIMARY_JOB_TITLE]" [YOUR_CITY]
-site:jobindex.dk "[YOUR_KEY_SKILL]" [YOUR_CITY]
-site:linkedin.com/jobs "[YOUR_PRIMARY_JOB_TITLE]" [YOUR_COUNTRY]
-```
-
-### Priority 2: [YOUR_DOMAIN_EXPERTISE]
-
-These match your domain expertise.
+These match Pushpak's strongest desired career direction.
 
 ```
-site:jobindex.dk [YOUR_DOMAIN_KEYWORD_1] [YOUR_CITY] OR [YOUR_REGION]
-site:jobindex.dk [YOUR_DOMAIN_KEYWORD_2] [YOUR_COUNTRY]
-site:linkedin.com/jobs [YOUR_DOMAIN_KEYWORD_1] [YOUR_CITY] [YOUR_COUNTRY]
+site:linkedin.com/jobs "IT Audit Associate" "Greater Toronto Area"
+site:linkedin.com/jobs "Technology Risk Associate" Toronto
+site:linkedin.com/jobs "IT Auditor" Mississauga OR Toronto
+site:linkedin.com/jobs "Risk and Controls Analyst" "Greater Toronto Area"
+site:linkedin.com/jobs "Internal Controls Analyst" Toronto
+site:linkedin.com/jobs "Audit Associate" "technology risk" Toronto
+site:indeed.com "IT Audit Associate" Toronto
+site:indeed.com "Technology Risk" "Mississauga"
 ```
 
-### Priority 3: [YOUR_ADJACENT_ROLE_TYPE]
+### Priority 2: Data Governance and Data Quality
 
-Adjacent roles you could pivot into.
-
-```
-site:jobindex.dk "[YOUR_ADJACENT_TITLE_1]" [YOUR_KEY_SKILL] [YOUR_CITY]
-site:jobindex.dk "[YOUR_ADJACENT_TITLE_2]" [YOUR_KEY_SKILL] [YOUR_CITY]
-```
-
-### Priority 4: Broader Technical / Consulting
-
-Wider net for general technical roles.
+These match Pushpak's IBM Maximo, Excel, data validation, and audit trail experience.
 
 ```
-site:jobindex.dk [YOUR_KEY_SKILL] developer [YOUR_CITY]
-site:linkedin.com/jobs "[YOUR_KEY_SKILL] developer" [YOUR_CITY]
-site:jobindex.dk "technical consultant" [YOUR_DOMAIN] [YOUR_CITY]
+site:linkedin.com/jobs "Data Governance Analyst" "Greater Toronto Area"
+site:linkedin.com/jobs "Data Quality Analyst" Mississauga OR Toronto
+site:linkedin.com/jobs "Data Integrity Analyst" Toronto
+site:linkedin.com/jobs "Master Data Analyst" "Greater Toronto Area"
+site:linkedin.com/jobs "IBM Maximo" analyst Ontario
+site:indeed.com "Data Quality Analyst" Toronto
+site:indeed.com "Data Governance Analyst" Mississauga
+```
+
+### Priority 3: Accounting Systems, Controls, and Internal Audit
+
+Adjacent roles that build toward IT audit.
+
+```
+site:linkedin.com/jobs "Accounting Systems Analyst" Toronto
+site:linkedin.com/jobs "Business Controls Analyst" "Greater Toronto Area"
+site:linkedin.com/jobs "Junior Internal Auditor" Toronto
+site:linkedin.com/jobs "Internal Audit Analyst" Mississauga OR Toronto
+site:linkedin.com/jobs "Controls Analyst" accounting systems Ontario
+site:indeed.com "Internal Controls Analyst" Toronto
+site:indeed.com "Accounting Systems Analyst" Mississauga
+```
+
+### Priority 4: Entry-Level Assurance, Risk, and Compliance
+
+Wider net for roles where Pushpak's accounting degree, CPA path, and controls mindset are relevant.
+
+```
+site:linkedin.com/jobs "Risk Analyst" "entry level" Toronto
+site:linkedin.com/jobs "Compliance Analyst" "data" Toronto
+site:linkedin.com/jobs "Assurance Associate" "systems" Toronto
+site:linkedin.com/jobs "Audit and Assurance Associate" Toronto
+site:linkedin.com/jobs "CPA student" "internal controls" Ontario
+site:indeed.com "CPA student" "audit" Toronto
 ```
 
 ## Location Filter
 
-When evaluating results, verify the job location is within reasonable commute distance from your home. Define acceptable areas:
-- [YOUR_CITY] and surrounding areas
-- [ACCEPTABLE_AREA_1]
-- [ACCEPTABLE_AREA_2]
-- [BORDERLINE_AREA] (borderline - ~X min by transit)
-- [TOO_FAR_AREA] (too far)
+When evaluating results, verify the job location is compatible with Pushpak's profile:
+- Mississauga and surrounding areas
+- Brampton
+- Toronto
+- Oakville
+- Greater Toronto Area hybrid roles
+- Remote Canada roles
+- Other Ontario roles only if remote or clearly reasonable to commute
+- Relocation outside the GTA is a fail unless Pushpak explicitly approves
 
 ## Date Filter
 
-Only include jobs posted within the last 14 days, or with an application deadline that has not yet passed. If a posting date cannot be determined, include it but flag as "date unknown".
+Only include jobs posted within the last 14 days, or with an application deadline that has not passed. If a posting date cannot be determined, include it but flag as "date unknown".
 
 ## Adapting Queries
 
-If the user specifies a focus area, select queries from the matching category and also generate 2-3 custom queries for that focus. For example:
-- "/scrape [focus_area]" -> relevant category queries + custom focus-specific queries
+If Pushpak specifies a focus area, select queries from the matching category and generate 2-3 custom queries for that focus. Examples:
+- IT audit focus: add "ITGC", "SOX", "technology controls", and "risk assurance".
+- Data governance focus: add "data lineage", "data stewardship", "data quality", and "master data".
+- Accounting systems focus: add "ERP", "financial systems", "accounting analyst", and the specific system named in the posting.

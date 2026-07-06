@@ -1,81 +1,75 @@
 # Job Evaluation Framework
 
-<!-- SETUP: Skill match areas and career goals are personalized by running /setup -->
-
 ## Scoring Dimensions
 
 Evaluate each job posting against these five dimensions:
 
 ### 1. Technical Skills Match (0-100)
-How well do the required/preferred skills align with the candidate's capabilities?
+How well do the required or preferred skills align with Pushpak's capabilities?
 
 | Score | Meaning |
 |-------|---------|
-| 80-100 | Core requirements are primary skills |
-| 60-79 | Most requirements match, 1-2 gaps that are learnable |
-| 40-59 | Partial match, significant upskilling needed |
-| 0-39 | Fundamental mismatch |
+| 80-100 | Core requirements focus on reconciliations, internal controls, documentation, data quality, accounting systems, or entry-level IT audit with training. |
+| 60-79 | Most requirements match, with 1-2 learnable gaps such as formal audit testing methodology or a specific GRC tool. |
+| 40-59 | Partial match, significant upskilling needed, such as cybersecurity frameworks or advanced analytics. |
+| 0-39 | Fundamental mismatch, such as senior software engineering, senior cybersecurity, or unrelated sales roles. |
 
-**Strong match areas:** [YOUR_PRIMARY_SKILLS]
-**Moderate match areas:** [YOUR_SECONDARY_SKILLS]
-**Weak match areas:** [SKILLS_YOU_LACK]
+**Strong match areas:** reconciliations, variance analysis, documentation review, approval and authorization checks, audit-ready records, audit trails, Excel analysis, data validation, enterprise systems, stakeholder follow-up.
+**Moderate match areas:** IT audit associate, technology risk associate, SOX or controls testing, data governance, accounting systems analysis, internal audit support.
+**Weak match areas:** senior IT audit management, direct cybersecurity engineering, penetration testing, advanced production software development, senior CPA roles requiring completed designation.
 
 ### 2. Experience Match (0-100)
-Does work history align with what they're looking for?
+Does work history align with what they are looking for?
 
 | Score | Meaning |
 |-------|---------|
-| 80-100 | Direct experience in the same domain and role type |
-| 60-79 | Related experience, transferable skills clear |
-| 40-59 | Adjacent experience, would need to make the case |
-| 0-39 | Unrelated experience |
+| 80-100 | Entry-level or associate role where accounting, systems, controls, data validation, and audit readiness are directly relevant. |
+| 60-79 | Related role where transferable controls and data skills are clear but direct IT audit experience is not required. |
+| 40-59 | Adjacent role that would require a strong transition narrative and quick upskilling. |
+| 0-39 | Role requires senior direct experience or unrelated background. |
 
-**Strong:** [YOUR_DIRECT_EXPERIENCE_DOMAINS]
-**Moderate:** [YOUR_ADJACENT_EXPERIENCE]
-**Entry-level:** [ROLES_WITH_LIMITED_EXPERIENCE]
+**Strong:** dealership accounting controls, transaction verification, reconciliations, internal control checkpoints, enterprise data validation, IBM Maximo asset records, Excel reporting.
+**Moderate:** IT audit associate, internal controls analyst, data governance analyst, accounting systems analyst, audit and assurance associate with technology exposure.
+**Entry-level:** formal IT general controls testing, GRC platforms, SOX control testing, cybersecurity frameworks, ERP audit tools.
 
 ### 3. Behavioral/Culture Fit (0-100)
 Does the role and company culture match the behavioral profile?
 
 | Score | Meaning |
 |-------|---------|
-| 80-100 | Culture strongly matches behavioral preferences |
-| 60-79 | Mixed signals but mostly compatible |
-| 40-59 | Some friction areas |
-| 0-39 | Significant culture mismatch |
+| 80-100 | Culture values accuracy, process discipline, documentation, clear standards, mentorship, and stakeholder collaboration. |
+| 60-79 | Mixed signals but mostly compatible. |
+| 40-59 | Some friction, such as highly ambiguous work or little onboarding into audit methods. |
+| 0-39 | Significant mismatch, such as quota-heavy sales or chaotic environments with weak controls. |
 
-**Red flags to research:** Department disorganization, work dominated by maintenance over development, poor chemistry with leadership, culture mismatches. Check reviews, media coverage, LinkedIn connections, and network contacts for insider perspective.
+**Red flags to research:** unclear role expectations, no training for entry-level audit methods, heavy travel, senior-only team, poor reviews around mentorship, or roles that are titled audit but are mainly sales or support.
 
 ### 4. Location & Logistics (Pass/Fail + Notes)
-- Within commute range: PASS
-- Remote with occasional office: PASS
-- Requires relocation: FAIL (deal-breaker)
-- Frequent international travel: FLAG (discuss with user)
+- Mississauga, Brampton, Toronto, Oakville, and broader GTA: PASS
+- Hybrid in the GTA: PASS
+- Remote Canada: PASS
+- Requires relocation outside the GTA: FAIL unless Pushpak explicitly approves
+- Frequent travel: FLAG and discuss with Pushpak
 
 ### 5. Career Alignment & Motivation (0-100)
-Does this role advance career goals and contain tasks that energize?
+Does this role advance Pushpak's transition into IT audit, controls, data governance, or accounting systems?
 
 | Score | Meaning |
 |-------|---------|
-| 80-100 | Strongly aligned with career direction, clear growth path |
-| 60-79 | Good role but only partially aligned with long-term goals |
-| 40-59 | Decent job but doesn't build toward career goals |
-| 0-39 | Dead end or backwards step |
+| 80-100 | Strongly aligned with IT audit, technology risk, controls, data governance, or accounting systems. |
+| 60-79 | Good role that builds relevant controls, systems, or data quality experience. |
+| 40-59 | Decent job but only indirectly supports the long-term goal. |
+| 0-39 | Dead end or backwards step away from audit, systems, or data controls. |
 
 **Career goals:**
-- [YOUR_CAREER_GOAL_1]
-- [YOUR_CAREER_GOAL_2]
-- [YOUR_CAREER_GOAL_3]
+- Transition into IT audit or technology risk.
+- Build on accounting and computer science education through controls, systems, and data integrity work.
+- Progress toward CPA designation while developing audit, assurance, and risk experience.
 
-**Motivation filter:** Evaluate not just whether you *can* do the tasks, but whether the tasks will *energize* you. Consider:
-- Tasks that energize: [YOUR_ENERGIZING_TASKS]
-- Tasks that drain: [YOUR_DRAINING_TASKS]
-- Non-task factors: leadership style, department culture, company values, degree of autonomy
-
-**Life situation alignment:** Consider personal constraints:
-- **Security**: [YOUR_FINANCIAL_SITUATION_CONTEXT]
-- **Flexibility**: [YOUR_SCHEDULE_CONSTRAINTS]
-- **Professional development**: [YOUR_GROWTH_PRIORITIES]
+**Motivation filter:** Evaluate not just whether Pushpak can do the tasks, but whether the tasks build toward IT audit.
+- Tasks that energize: reconciliations, controls review, data validation, system records, audit trails, variance investigation, stakeholder coordination, process standardization.
+- Tasks that drain: unrelated sales, generic customer service, repetitive data entry with no controls or audit pathway, roles requiring senior experience without training.
+- Non-task factors: mentorship, structured onboarding, hybrid flexibility, GTA location, exposure to audit or risk methodology.
 
 ### 6. Salary Benchmark (Optional)
 
@@ -85,17 +79,6 @@ python salary_lookup.py "<Company Name>" --json
 ```
 
 If a city is known from the posting, add `--city "<City>"` to narrow results.
-
-Present findings as:
-```
-### Salary Benchmark
-| Metric | Value |
-|--------|-------|
-| [Category] index | XX.X (+/-X.X% vs baseline) |
-| Overall index | XX.X (+/-X.X% vs baseline) |
-```
-
-Interpret results relative to the baseline defined in the data file's metadata. For index-based data, higher typically means above-market compensation.
 
 If the salary tool is not configured, skip this section.
 
@@ -126,13 +109,6 @@ Present the evaluation as:
 
 ### Recommendation
 [1-2 sentences: apply/skip/apply with caveats]
-
-### Company Research Checklist
-- [ ] Checked company website (mission, values, recent news)
-- [ ] Checked review sites (Glassdoor, Jobindex, etc.)
-- [ ] Checked LinkedIn for team size, recent hires, connections
-- [ ] Checked media for restructuring, growth, or workplace issues
-- [ ] Identified network contacts who may know the team/manager
 ```
 
 ## Weighting
@@ -141,33 +117,11 @@ Present the evaluation as:
 - Behavioral Fit: 15%
 - Career Alignment: 30%
 
-(Location is pass/fail, not weighted)
+(Location is pass/fail, not weighted.)
 
 ## Thresholds
 - **Strong Fit** (75+): Definitely apply, tailor everything
 - **Good Fit** (60-74): Apply, address gaps in cover letter
-- **Moderate Fit** (45-59): Consider carefully, discuss with user
+- **Moderate Fit** (45-59): Consider carefully, discuss with Pushpak
 - **Weak Fit** (30-44): Probably skip unless strategic reasons
 - **Poor Fit** (<30): Skip
-
-## Pre-Application: Call the Employer (Best Practice)
-
-Before writing the application, consider whether the candidate should call the contact person listed in the posting. **Only call if there are substantive questions** - never call just to "be remembered."
-
-### When to Suggest Calling
-- The posting has unclear or ambiguous requirements
-- It's unclear which competencies are essential vs. nice-to-have
-- The role description is vague about day-to-day tasks
-- There's a named contact person who invites questions
-
-### Good Questions to Ask
-- "What are the primary challenges in this role?"
-- "How is time typically divided across the listed responsibilities?"
-- "Which competencies are most critical for success in this position?"
-- "What does success look like in the first 6-12 months?"
-
-### Rules for the Call
-- Prepare a 30-second "elevator pitch" about your background in case they ask
-- The call's purpose is **gathering information**, not delivering a pitch
-- Take notes - use what you learn to tailor the application
-- Reference the conversation naturally in the cover letter ("After speaking with [name], I was especially drawn to...")
