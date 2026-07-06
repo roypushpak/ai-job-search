@@ -239,3 +239,21 @@ The section order varies by role type:
 4. Professional Experience (reverse chronological)
 5. Publications & Awards
 6. References
+
+## Personalized Profile Statement Templates for Pushpak Roy
+
+**For IT Audit Associate / Technology Risk roles:**
+> Accounting and computer science graduate transitioning into IT audit, with hands-on experience reviewing transaction documentation, verifying approvals, reconciling system records, and preserving audit-ready evidence. Brings practical exposure to CDK, One-Eighty, IBM Maximo, and Excel-based data validation, with a CPA Ontario path and a strong interest in controls, technology risk, and data integrity.
+
+**For Data Governance / Data Quality roles:**
+> Data and accounting professional with experience validating enterprise asset records, reconciling system data to source files, documenting corrections, and improving audit trail integrity. Combines a computer science degree with accounting training and practical Excel, IBM Maximo, and stakeholder coordination experience.
+
+**For Accounting Systems / Internal Controls roles:**
+> Accounting and systems-oriented analyst experienced in transaction verification, reconciliations, approval checks, and month-end reporting support. Strong fit for roles that require accurate financial records, clean documentation, and collaboration across accounting, operations, and systems teams.
+
+### Pushpak's CV Positioning Rules
+- Lead with the IT audit transition: accounting plus computer science plus controls and data integrity experience.
+- Emphasize CDK, One-Eighty, IBM Maximo, Excel, VLOOKUP, PivotTables, reconciliations, variance analysis, documentation review, approvals, authorizations, audit trails, and data validation.
+- Do not claim completed CPA designation. Use "CPA Ontario Student" or "working toward CPA designation".
+- Do not claim direct IT audit engagements, SOX testing ownership, cybersecurity testing, or specific programming languages unless Pushpak provides evidence.
+- For entry-level IT audit postings, frame Deal Analyst and Data Management Analyst work as transferable controls, systems, evidence, and data integrity experience.

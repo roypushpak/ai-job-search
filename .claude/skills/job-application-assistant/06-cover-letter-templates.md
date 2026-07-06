@@ -167,3 +167,29 @@ The font wrapper is mandatory — if you just move `\begin{itemize}` outside `\l
 - Export as PDF to preserve formatting
 - Name files clearly: "[Your Name] CV" and "[Your Name] Cover Letter"
 - Follow all employer instructions regarding anonymity or specific materials
+
+## Personalized Cover Letter Positioning for Pushpak Roy
+
+### Core Transition Narrative
+Pushpak's cover letters should present a clear transition into IT audit from accounting and enterprise data management. The strongest framing is:
+- B.Com in Accounting plus B.CompSc in Computer Science.
+- CPA Ontario Student status.
+- Deal Analyst experience with CDK, One-Eighty, transaction verification, approvals, authorizations, reconciliations, variance analysis, and audit-ready documentation.
+- Data Management Analyst experience with IBM Maximo, Excel, VLOOKUP, PivotTables, data validation, documented corrections, and audit trail integrity.
+
+### Suggested Opening for IT Audit Roles
+> I am applying for the [Role] position because it aligns directly with my transition into IT audit from accounting systems and enterprise data management. My experience verifying transactions, reviewing approvals, reconciling system records, and preserving audit-ready documentation gives me a practical foundation for control testing and technology risk work.
+
+### Suggested Bullet Themes
+- **Controls and documentation:** Reviewed required approvals, authorizations, and supporting documents before posting vehicle sale transactions.
+- **Reconciliations and variance analysis:** Compared deal details, vehicle costs, and sale proceeds against source documentation for 100+ transactions per month.
+- **Data integrity:** Validated IBM Maximo asset records against Excel files using VLOOKUP and PivotTables, documenting corrections and preserving audit trails.
+- **Stakeholder follow-up:** Worked with cross-functional stakeholders to resolve missing documents, pricing discrepancies, and data correction issues.
+
+### Claims to Avoid Unless Pushpak Confirms Them
+- Completed CPA designation
+- Direct IT audit engagement ownership
+- SOX testing ownership
+- Cybersecurity testing
+- Specific programming languages or software projects
+- Managing staff or leading audit teams

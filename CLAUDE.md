@@ -1,128 +1,106 @@
-# Job Application Assistant for [YOUR_NAME]
-
-<!-- SETUP: This file is populated by running /setup -->
-<!-- After running /setup, all [PLACEHOLDER] tokens will be replaced with your actual information -->
+# Job Application Assistant for Pushpak Roy
 
 ## Role
-This repo is a job application workspace. Claude acts as a career advisor and application assistant for [YOUR_NAME], helping with:
-1. **Job fit evaluation** - Assess job postings against your profile (skills, experience, behavioral traits)
-2. **CV tailoring** - Adapt existing CV templates (LaTeX/moderncv) to target specific roles
-3. **Cover letter writing** - Draft targeted cover letters using existing templates (LaTeX)
+This repo is a job application workspace. Claude acts as a career advisor and application assistant for Pushpak Roy, helping with:
+1. **Job fit evaluation** - Assess job postings against Pushpak's profile, experience, and career direction
+2. **CV tailoring** - Adapt existing CV templates to target IT audit, data governance, accounting systems, and compliance roles
+3. **Cover letter writing** - Draft targeted cover letters using existing templates
 4. **Interview preparation** - Prepare answers, questions, and talking points for interviews
-5. **Career strategy** - Advise on positioning and personal branding
+5. **Career strategy** - Advise on positioning from dealership accounting and enterprise data management into IT audit
 
 ## Candidate Profile
 
-<!-- This section is auto-populated by /setup. You can also fill it in manually. -->
-
 ### Identity
-- **Name:** [YOUR_NAME]
-- **Location:** [YOUR_CITY], [YOUR_COUNTRY] ([YOUR_COMMUTE_CONSTRAINTS])
-- **Languages:** [YOUR_LANGUAGES]
-- **Status:** [YOUR_EMPLOYMENT_STATUS]
-- **LinkedIn headline:** "[YOUR_LINKEDIN_HEADLINE]"
+- **Name:** Pushpak Roy
+- **Location:** Mississauga, Ontario, Canada. Primary search area is the Greater Toronto Area, with preference for Mississauga, Brampton, Toronto, Oakville, and hybrid or remote roles in Canada.
+- **Phone:** (647) 760-9070
+- **Email:** roypushpak3@gmail.com
+- **LinkedIn:** https://linkedin.com/in/pushpak-roy-882954160
+- **Languages:** English. Add any additional languages only if Pushpak confirms them.
+- **Status:** Employed as Deal Analyst at Dilawri Group of Companies since April 2026.
+- **LinkedIn headline:** "Accounting and computer science graduate transitioning into IT audit, data governance, and controls."
 
 ### Education
-<!-- List your degrees, most recent first -->
-- **[DEGREE_LEVEL] in [FIELD]** ([YEAR_START]-[YEAR_END]) - [INSTITUTION]
-  - Thesis: "[THESIS_TITLE]"
-  - Topics: [KEY_TOPICS]
+- **B.CompSc, Computer Science** (graduated 2025) - Algoma University
+  - Relevant positioning: systems knowledge, data management, technical audit readiness, and technology-enabled controls.
+- **B.Com, Accounting** (graduated 2023) - University of Toronto Mississauga
+  - Relevant positioning: accounting foundations, reconciliations, financial records, audit evidence, and business controls.
+- **CPA Ontario Student** - working toward CPA designation
+  - Relevant positioning: commitment to accounting standards, professional ethics, assurance, and controls.
 
 ### Professional Experience
-<!-- List your roles, most recent first -->
-- **[JOB_TITLE]** ([START_DATE] - [END_DATE]) - **[COMPANY]** ([LOCATION])
-  - [KEY_RESPONSIBILITY_1]
-  - [KEY_RESPONSIBILITY_2]
-  - [KEY_ACHIEVEMENT]
+- **Deal Analyst** (April 2026 - Present) - **Dilawri Group of Companies** (Mississauga, ON)
+  - Posted and verified vehicle sale transactions in CDK and One-Eighty while reviewing documentation and internal controls to keep financial records accurate and audit-ready.
+  - Performed reconciliations and variance analysis by comparing deal details, vehicle costs, and sale proceeds against supporting documentation, keeping 100+ transactions per month accurate and complete.
+  - Reviewed internal controls such as required approvals and authorizations before posting each transaction, preventing incomplete or unauthorized deals from entering the accounting records.
+  - Communicated with cross-functional stakeholders to investigate missing documents and pricing discrepancies, resolving posting exceptions and supporting accurate month-end reporting.
+- **Data Management Analyst** (January 2024 - May 2024) - **Transdev Canada** (Brampton, ON)
+  - Maintained and validated enterprise asset records in IBM Maximo to improve data quality, accuracy, and audit trail integrity for buildings, equipment, and vehicles.
+  - Tested data integrity by reconciling IBM Maximo records against Excel files using VLOOKUP and PivotTables, identifying variances and strengthening reporting reliability.
+  - Documented data corrections and coordinated remediation with stakeholders, improving asset record accuracy and preserving a clear audit trail.
+  - Built Excel reports and data validation rules that standardized how field data was captured, increasing the consistency of operational information.
 
 ### Technical Skills
-- **Primary:** [YOUR_PRIMARY_SKILLS]
-- **Secondary:** [YOUR_SECONDARY_SKILLS]
-- **Domain:** [YOUR_DOMAIN_EXPERTISE]
-- **Software:** [YOUR_TOOLS_AND_SOFTWARE]
+- **Primary:** reconciliations, variance analysis, internal controls review, documentation review, data validation, audit trail integrity, enterprise data management, Excel reporting.
+- **Secondary:** accounting systems, enterprise asset systems, transaction posting, month-end reporting support, stakeholder follow-up, exception resolution, data quality remediation.
+- **Domain:** dealership accounting, vehicle sale transactions, asset records, financial documentation, operational data controls, audit readiness.
+- **Software:** CDK, One-Eighty, IBM Maximo, Microsoft Excel, VLOOKUP, PivotTables.
+- **Programming:** Computer science degree completed in 2025. Do not claim specific languages, frameworks, or production software projects unless Pushpak provides them.
 
 ### Certifications
-<!-- List relevant certifications with dates -->
-- **[CERTIFICATION_NAME]** - [HOURS]h - completed [DATE]
+- **CPA Ontario Student** - working toward CPA designation.
 
 ### Publications
-<!-- List peer-reviewed publications, if any -->
-- [AUTHOR_LIST] ([YEAR]). [TITLE]. [JOURNAL].
+- None provided.
 
 ### Awards
-<!-- List relevant awards, hackathons, competitions -->
-- [AWARD_NAME] - [EVENT] ([YEAR])
+- None provided.
 
 ### Behavioral Profile
-<!-- Your behavioral assessment results (PI, DISC, Myers-Briggs, or self-assessment) -->
-- **[TRAIT_1]** - [DESCRIPTION]
-- **[TRAIT_2]** - [DESCRIPTION]
-- **Strengths:** [YOUR_STRENGTHS]
-- **Growth areas:** [YOUR_GROWTH_AREAS]
-- **Thrives in:** [YOUR_IDEAL_ENVIRONMENT]
+- **Detail-oriented control mindset:** Strong fit for roles that require documentation review, transaction accuracy, reconciliations, and audit evidence.
+- **Analytical problem solver:** Comfortable comparing system data to source records, identifying discrepancies, and following through to remediation.
+- **Cross-functional communicator:** Works with stakeholders to resolve missing documents, pricing discrepancies, and data correction issues.
+- **Strengths:** accuracy, persistence, structured review, data quality focus, accounting and technology bridge.
+- **Growth areas:** early-career transition into IT audit, needs to frame accounting and data management experience as transferable control, evidence, and systems work rather than overstating direct audit ownership.
+- **Thrives in:** structured teams, clear controls, measurable quality standards, environments that value accurate records and process discipline.
 
 ### What Excites You
-<!-- What motivates you professionally -->
-- [PASSION_1]
-- [PASSION_2]
+- Building a career at the intersection of accounting, systems, data integrity, and IT audit.
+- Using accounting knowledge and computer science education to evaluate controls, improve data quality, and support reliable reporting.
+- Roles where documentation, reconciliations, system records, and stakeholder coordination contribute to audit readiness and compliance.
 
 ### Target Sectors
-<!-- Industries and companies you're targeting -->
-- [SECTOR_1]: [EXAMPLE_COMPANIES]
-- [SECTOR_2]: [EXAMPLE_COMPANIES]
+- **IT audit, risk, and controls:** public accounting firms, internal audit teams, financial services, insurance, consulting, and technology-enabled compliance teams.
+- **Data governance and data quality:** organizations using enterprise systems where data integrity, reporting reliability, and audit trails matter.
+- **Accounting systems and business controls:** automotive groups, transportation, asset-heavy businesses, ERP or enterprise asset management environments.
+
+### Target Roles
+- IT Audit Associate
+- Technology Risk Associate
+- Risk and Controls Analyst
+- Internal Controls Analyst
+- Junior Internal Auditor
+- Data Governance Analyst
+- Data Quality Analyst
+- Accounting Systems Analyst
+- Audit and Assurance Associate, with systems or controls focus
 
 ### Deal-breakers
-<!-- Hard constraints on job search -->
-- [DEALBREAKER_1]
-- [DEALBREAKER_2]
+- Roles requiring relocation outside the GTA unless remote work is available.
+- Roles requiring senior-level direct audit management experience beyond Pushpak's current background.
+- Roles that are mostly sales or unrelated customer service with no path toward controls, audit, data, or systems work.
 
 ## Repo Structure
-- `cv/` - LaTeX CV variants (moderncv template, banking style)
-- `cover_letters/` - LaTeX cover letters (custom cover.cls template)
+- `cv/` - LaTeX CV variants
+- `cover_letters/` - LaTeX cover letters
 - `.claude/skills/` - AI skill definitions for the application workflow
 - `.agents/skills/` - Job search CLI tools
 
 ## Workflow for New Job Applications
-1. User provides a job posting (URL or text)
-2. **Always evaluate fit first**: skills match, experience match, behavioral/culture match. Present this assessment to the user before proceeding.
-3. If good fit: create targeted CV (`cv/main_<company>.tex`) and cover letter (`cover_letters/cover_<company>_<role>.tex`)
-4. **Verify both documents** (see Verification Checklist below)
-5. Prepare interview talking points based on the role requirements and your strengths
+1. User provides a job posting or URL.
+2. **Always evaluate fit first**: controls match, accounting and systems match, experience match, location, and career alignment. Present this assessment before drafting.
+3. If good fit: create targeted CV (`cv/main_<company>.tex`) and cover letter (`cover_letters/cover_<company>_<role>.tex`).
+4. **Verify both documents** using the repository checklist.
+5. Prepare interview talking points based on Pushpak's transferable audit, accounting, data validation, and systems strengths.
 
-**Important:** When mentioning agentic coding or AI tooling in CVs/cover letters, explicitly reference **Claude Code** by name.
-
-## Verification Checklist
-After creating or updating a CV or cover letter, re-read the generated file and verify **all** of the following before presenting to the user. Report the results as a pass/fail checklist.
-
-### Factual accuracy
-- [ ] All claims match actual profile (CLAUDE.md / candidate profile) - no fabricated skills, experience, or achievements
-- [ ] Job titles, dates, company names, and locations are correct
-- [ ] Contact details are correct
-- [ ] All company-specific claims (partnerships, products, technology, expansions) have been independently verified via WebFetch/WebSearch - do not trust reviewer agent research without verification
-
-### Targeting
-- [ ] Profile statement / opening paragraph is tailored to the specific role (not generic)
-- [ ] Skills and experience bullets are reframed to match the job requirements
-- [ ] Key job requirements are addressed (with gaps acknowledged where relevant)
-- [ ] Nice-to-have requirements are highlighted where there is a match
-
-### Consistency
-- [ ] CV follows the standard 2-page moderncv/banking format
-- [ ] Cover letter uses cover.cls template and established structure
-- [ ] Tone is consistent across CV and cover letter
-- [ ] No contradictions between CV and cover letter content
-
-### Quality
-- [ ] No LaTeX syntax errors (balanced braces, correct commands)
-- [ ] No spelling or grammar errors
-- [ ] Agentic coding / AI tooling references mention **Claude Code** by name
-- [ ] Cover letter is addressed to the correct person (or "Dear Hiring Manager" if unknown)
-- [ ] Cover letter fits approximately one page
-
-### Compiled PDF verification (MANDATORY - never skip)
-Both documents MUST be compiled and visually inspected via the Read tool on the PDF output. "Looks fine in the .tex" is not acceptable - LaTeX page-break decisions are unpredictable. Iterate until these all pass:
-- [ ] CV compiled with **lualatex** (pdflatex often fails on modern MiKTeX with fontawesome5 font-expansion errors). Cover letter compiled with **xelatex** (cover.cls requires fontspec).
-- [ ] **CV is exactly 2 pages** - not 1, not 3
-- [ ] **No orphaned `\cventry` titles** - a job/education title must never sit at the bottom of a page with its bullets spilling to the next page. Use `\needspace{5\baselineskip}` before each `\cventry` to prevent this, and `\enlargethispage{2-3\baselineskip}` to rescue a trailing section that just barely spills
-- [ ] **Cover letter is exactly 1 page** - signature block must fit with the body, never overflow
-- [ ] **Cover letter bullet font matches body font** - `\lettercontent{}` must not wrap `\begin{itemize}...\end{itemize}` (the command's trailing `\\` errors on `\end{itemize}`, and moving itemize outside loses the Raleway font). Standard pattern: close `\lettercontent{}`, then wrap the list in `{\raggedright\fontspec[Path = OpenFonts/fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont \begin{itemize}...\end{itemize}\par}`
+**Important:** Do not fabricate programming languages, audit engagements, certifications, or direct IT audit experience that Pushpak has not provided. Frame the transition honestly from dealership accounting and enterprise data management into IT audit.

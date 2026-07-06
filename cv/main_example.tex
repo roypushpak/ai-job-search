@@ -1,18 +1,11 @@
-%% Example CV - [YOUR_NAME]
-%% Comprehensive overview of all competencies, experience, and achievements.
-%% Use as a master reference when tailoring role-specific CVs.
-%%
-%% SETUP: Run /setup to populate this with your actual information.
+%% Master CV - Pushpak Roy
+%% Comprehensive overview for tailoring role-specific CVs.
 %% Compile with: lualatex main_example.tex
-%% (pdflatex often fails on modern MiKTeX with fontawesome5 font-expansion errors.)
 
 \documentclass[11pt,a4paper,sans]{moderncv}
 \moderncvstyle{banking}
 \moderncvcolor{blue}
 
-% Force both first and last name AND section headings to render in moderncv
-% blue (color1). Default banking on lualatex+MiKTeX leaves these black, which
-% looks inconsistent with the rest of the blue accent scheme.
 \renewcommand*{\firstnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
 \renewcommand*{\lastnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
 \renewcommand*{\sectionstyle}[1]{{\sectionfont\color{color1}#1}}
@@ -24,146 +17,73 @@
     linkcolor=blue,
     filecolor=magenta,
     urlcolor=blue,
-    pdftitle={[YOUR_NAME] - CV},
+    pdftitle={Pushpak Roy - CV},
     pdfpagemode=FullScreen,
 }
 \usepackage[scale=0.80]{geometry}
 \usepackage{import}
 
-% personal data
-\name{[First]}{[Last]}
-\address{[Your Address, City, Country]}{}{}
-\phone[mobile]{[+XX XXXXXXXXXX]}
-\email{[your.email@example.com]}
-\extrainfo{\href{[https://linkedin.com/in/your-profile]}{LinkedIn}, \href{[https://github.com/your-username]}{GitHub}}
+\name{Pushpak}{Roy}
+\address{Mississauga, ON, Canada}{}{}
+\phone[mobile]{(647) 760-9070}
+\email{roypushpak3@gmail.com}
+\extrainfo{\href{https://linkedin.com/in/pushpak-roy-882954160}{LinkedIn}}
 
 \begin{document}
 
 \makecvtitle
 
-% ============================================================
-%     PROFILE STATEMENT
-% ============================================================
-
 \vspace{6pt}
-\small{[Write a 3-5 line profile statement tailored to the role you're applying for. Focus on what makes you uniquely qualified. Example: "Data scientist with a PhD in [field] and X years of industry experience. Combines deep domain expertise in [domain] with strong applied machine learning and Python development skills. Experienced in developing end-to-end ML pipelines, from data ingestion to stakeholder-facing dashboards."]}
-
-% ============================================================
-%     CORE COMPETENCIES
-% ============================================================
+\small{Accounting and computer science graduate transitioning into IT audit from dealership accounting and enterprise data management. Experienced in transaction verification, reconciliations, internal control checkpoints, enterprise data validation, and audit trail integrity across CDK, One-Eighty, IBM Maximo, and Excel. CPA Ontario Student working toward the CPA designation.}
 
 \section{Core Competencies}
 \vspace{1pt}
 \begin{itemize}
-
-\item \textbf{[Skill Category 1]}: [Specific skills, frameworks, tools. Be concrete.]
-
-\item \textbf{[Skill Category 2]}: [Specific skills, frameworks, tools.]
-
-\item \textbf{[Skill Category 3]}: [Specific skills, frameworks, tools.]
-
-\item \textbf{[Skill Category 4]}: [Domain expertise, methods, approaches.]
-
-\item \textbf{[Skill Category 5]}: [Tools, platforms, software.]
-
+\item \textbf{Controls and audit readiness}: documentation review, approvals and authorization checks, audit-ready records, transaction verification.
+\item \textbf{Accounting analysis}: reconciliations, variance analysis, vehicle sale transactions, month-end reporting support.
+\item \textbf{Data quality}: enterprise asset record validation, data correction documentation, audit trail integrity, system-to-source comparison.
+\item \textbf{Systems and tools}: CDK, One-Eighty, IBM Maximo, Microsoft Excel, VLOOKUP, PivotTables, data validation rules.
+\item \textbf{Stakeholder coordination}: missing document follow-up, pricing discrepancy investigation, cross-functional remediation.
 \end{itemize}
-
-% ============================================================
-%     PROFESSIONAL EXPERIENCE
-% ============================================================
 
 \section{Professional Experience}
 \vspace{3pt}
 \begin{itemize}
 
-% --- Most Recent Role ---
-\item{\cventry{[YYYY--Present]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\item{\cventry{Apr. 2026--Present}{Deal Analyst}{Dilawri Group of Companies}{Mississauga, ON}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1 - be specific, use numbers where possible]
-    \item [Achievement or responsibility 2]
-    \item [Achievement or responsibility 3]
-    \item [Achievement or responsibility 4]
+    \item Posted and verified vehicle sale transactions in CDK and One-Eighty while reviewing documentation and internal controls to keep financial records accurate and audit-ready.
+    \item Performed reconciliations and variance analysis by comparing deal details, vehicle costs, and sale proceeds against supporting documentation, keeping 100+ transactions per month accurate and complete.
+    \item Reviewed internal controls such as required approvals and authorizations before posting each transaction, preventing incomplete or unauthorized deals from entering the accounting records.
+    \item Communicated with cross-functional stakeholders to investigate missing documents and pricing discrepancies, resolving posting exceptions and supporting accurate month-end reporting.
 \end{itemize}}}
 
 \vspace{3pt}
 
-% --- Previous Role ---
-\item{\cventry{[YYYY--YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\item{\cventry{Jan. 2024--May 2024}{Data Management Analyst}{Transdev Canada}{Brampton, ON}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1]
-    \item [Achievement or responsibility 2]
-    \item [Achievement or responsibility 3]
-\end{itemize}}}
-
-\vspace{3pt}
-
-% --- Earlier Role ---
-\item{\cventry{[YYYY--YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
-\begin{itemize}
-    \item [Achievement or responsibility 1]
-    \item [Achievement or responsibility 2]
+    \item Maintained and validated enterprise asset records in IBM Maximo to improve data quality, accuracy, and audit trail integrity for buildings, equipment, and vehicles.
+    \item Tested data integrity by reconciling IBM Maximo records against Excel files using VLOOKUP and PivotTables, identifying variances and strengthening reporting reliability.
+    \item Documented data corrections and coordinated remediation with stakeholders, improving asset record accuracy and preserving a clear audit trail.
+    \item Built Excel reports and data validation rules that standardized how field data was captured, increasing the consistency of operational information.
 \end{itemize}}}
 
 \end{itemize}
 
-% ============================================================
-%     EDUCATION
-% ============================================================
-
-\section{Education}
+\section{Education and Certificates}
 \vspace{1pt}
 \begin{itemize}
-
-\item{\cventry{[YYYY--YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-Thesis: ``[Thesis Title].'' [Brief description of research focus.]
-}}
-
+\item{\cventry{Graduated 2025}{B.CompSc, Computer Science}{Algoma University}{}{}{}}
 \vspace{3pt}
-
-\item{\cventry{[YYYY--YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-[Brief description or key topics.]
-}}
-
+\item{\cventry{Graduated 2023}{B.Com, Accounting}{University of Toronto Mississauga}{}{}{}}
+\vspace{3pt}
+\item{\cventry{In progress}{CPA Ontario Student}{CPA Ontario}{}{}{Working toward CPA designation.}}
 \end{itemize}
-
-% ============================================================
-%     LANGUAGES
-% ============================================================
-
-\section{Languages}
-\vspace{1pt}
-\begin{itemize}
-\item [Language 1] (native), [Language 2] (fluent), [Language 3] (intermediate).
-\end{itemize}
-
-% ============================================================
-%     PUBLICATIONS (optional)
-% ============================================================
-
-\section{Publications}
-\vspace{1pt}
-\begin{itemize}
-\item [Author(s)] ([Year]). [Title]. [Journal/Conference]. \href{[DOI_URL]}{DOI link}
-\end{itemize}
-
-% ============================================================
-%     HONORS AND AWARDS (optional)
-% ============================================================
-
-\section{Honors and Awards}
-\vspace{1pt}
-\begin{itemize}
-\item{\textbf{[Award Name]} -- [Event/Organization] ([Year]).}
-\end{itemize}
-
-% ============================================================
-%     REFERENCES
-% ============================================================
 
 \section{References}
 \vspace{1pt}
 \begin{itemize}
-\item{Available upon request.}
+\item Available upon request.
 \end{itemize}
 
 \end{document}
